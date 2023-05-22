@@ -14,7 +14,7 @@ r = requests.get(website, headers=header)
 
 
 soup = BeautifulSoup(r.content, "html.parser")
-
+print("hello wolrd")
 pack = soup.find_all("div", {"class":"a-section a-spacing-base"})
 
 
